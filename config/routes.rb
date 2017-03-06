@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
  
-  #Define Root URL 
+  # Define Root URL 
   root 'pages#index'
   
-  #Define routes for Pages 
-  get '/home' => 'pages#home'
+  # Define routes for Pages 
+  get '/home' => 'pages#home' #override default routes.
   get '/profile' => 'pages#profile'
   get '/explore' => 'pages#explore'
 
